@@ -1,0 +1,73 @@
+**Vetrina360 License v1.0**
+
+Copyright (c) 2025 Stefano Sello. All rights reserved.
+
+---
+
+**1. Preamble**
+This license applies to the software known as "Vetrina360" (the "Software"). By using, copying, modifying, or distributing the Software, you agree to the terms of this license.
+
+---
+
+**2. Permissions**
+You are granted the following rights:
+
+- **Use**: You may use the Software for personal, educational, or commercial purposes.
+- **Modify**: You may modify the Software for your own use.
+- **Distribute**: You may distribute unmodified copies of the Software, provided you comply with the attribution requirements in Section 4.
+- **Derivative Works**: You may create derivative works based on the Software, provided you comply with the attribution requirements in Section 4 and the redistribution terms in Section 5.
+
+---
+
+**3. Restrictions**
+You may not:
+
+- Remove or obscure any copyright, trademark, or attribution notices included in the Software.
+- Redistribute modified versions of the Software without including a clear attribution to the original author (see Section 4).
+- Use the name "Vetrina360" or any associated branding for derivative works without explicit permission from the copyright holder.
+
+---
+
+**4. Attribution**
+All copies or substantial portions of the Software, including derivative works, must retain the following attribution in a prominent place (e.g., in documentation, About sections, or the user interface):
+
+> "This software, Vetrina360, was originally developed by Stefano [Your Last Name]."
+
+---
+
+**5. Redistribution of Derivative Works**
+If you create derivative works based on the Software, you must:
+
+- Distribute the derivative works under this same license or another license approved by the copyright holder.
+- Clearly state that the work is a derivative of Vetrina360 and credit Stefano [Your Last Name] as the original author.
+
+---
+
+**6. Commercial Use**
+This license does not grant permission to use the Software or its derivative works for commercial redistribution or inclusion in proprietary software without prior written consent from Stefano [Your Last Name].
+
+For commercial licensing, contact: [Your Contact Email or Website].
+
+---
+
+**7. Disclaimer of Warranty**
+The Software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the copyright holder be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+
+---
+
+**8. Termination**
+This license will terminate automatically if you fail to comply with its terms. Upon termination, you must cease all use and distribution of the Software and its derivatives.
+
+---
+
+**9. Governing Law**
+This license is governed by and interpreted in accordance with the laws of [Your Country/State].
+
+---
+
+**10. Contact**
+For inquiries or permissions, please contact:
+
+Stefano Sello
+sellostefano@gmail.com
+

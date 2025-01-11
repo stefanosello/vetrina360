@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: vetuser
+  password: vetrina360_01
+
+development:
+  <<: *default
+  database: vetrina360_development
+
+test:
+  <<: *default
+  database: vetrina360_test
+
+production:
+  <<: *default
+  database: vetrina360
+  username: vetuser
+  password: <%= ENV["MYAPP_DATABASE_PASSWORD"] %>
