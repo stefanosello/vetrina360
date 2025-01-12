@@ -30,6 +30,6 @@ class TenantMiddleware
   end
 
   def not_found_response(message)
-    [404, { "Content-Type" => "text/plain" }, [message]]
+    [ 404, { "Content-Type" => "text/plain" }, [ message ] ]
   end
 end
