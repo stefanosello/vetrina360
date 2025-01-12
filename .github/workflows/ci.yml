@@ -56,18 +56,19 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    postgres:
-      image: postgres:14
-      ports:
-        - 5432:5432
-      env:
-        POSTGRES_USER: vetuser
-        POSTGRES_PASSWORD: vetrina360_01
-      options: >-
-        --health-cmd="pg_isready -U postgres"
-        --health-interval=10s
-        --health-timeout=5s
-        --health-retries=5
+    services:
+      postgres:
+        image: postgres:14
+        ports:
+          - 5432:5432
+        env:
+          POSTGRES_USER: vetuser
+          POSTGRES_PASSWORD: vetrina360_01
+        options: >-
+          --health-cmd="pg_isready -U postgres"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
     steps:
       - name: Install packages
         run: sudo apt-get update && sudo apt-get install --no-install-recommends -y build-essential git pkg-config google-chrome-stable
