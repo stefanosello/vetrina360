@@ -1,4 +1,5 @@
 require_relative "boot"
+require_relative "../lib/middlewares/tenant_middleware"
 
 require "rails/all"
 
@@ -23,5 +24,7 @@ module Vetrina360
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.middleware.use TenantMiddleware
   end
 end

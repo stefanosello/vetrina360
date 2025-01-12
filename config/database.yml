@@ -6,15 +6,39 @@ default: &default
   password: vetrina360_01
 
 development:
-  <<: *default
-  database: vetrina360_development
+  primary:
+    <<: *default
+    database: vetrina360_development
+  primary_exampleretailcompany:
+    <<: *default
+    database: exampleretailcompany_vetrina360_development
+    migrations_paths:
+      - db/migrate_tenants
+      - db/migrate_tenants/exampleretailcompany
+  primary_anotherretailcompany:
+    <<: *default
+    database: anotherretailcompany_vetrina360_development
+    migrations_paths:
+      - db/migrate_tenants
+      - db/migrate_tenants/anotherretailcompany
 
 test:
-  <<: *default
-  database: vetrina360_test
+  primary:
+    <<: *default
+    database: vetrina360_test
+  primary_exampleretailcompany:
+    <<: *default
+    database: exampleretailcompany_vetrina360_test
 
 production:
-  <<: *default
-  database: vetrina360
-  username: vetuser
-  password: <%= ENV["MYAPP_DATABASE_PASSWORD"] %>
+  primary:
+    <<: *default
+    database: vetrina360
+    username: vetuser
+    password: <%= ENV["VETRINA360_DATABASE_PASSWORD"] %>
+  primary_exampleretailcompany:
+    <<: *default
+    database: exampleretailcompany_vetrina360
+    host: <%= ENV["VETRINA360_EXAMPLERETAILCOMPANY_DATABASE_HOST"] %>
+    username: <%= ENV["VETRINA360_EXAMPLERETAILCOMPANY_DATABASE_USERNAME"] %>
+    password: <%= ENV["VETRINA360_EXAMPLERETAILCOMPANY_DATABASE_PASSWORD"] %>

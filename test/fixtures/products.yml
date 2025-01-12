@@ -4,10 +4,12 @@ one:
   description: MyString
   additional_description: MyString
   model: MyString
-  deleted: false
+  discarded_at: 2025-01-12 12:23:53
+  lock_version: 1
 
 two:
   description: MyString
   additional_description: MyString
   model: MyString
-  deleted: false
+  discarded_at: 2025-01-12 12:23:53
+  lock_version: 1
