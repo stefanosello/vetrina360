@@ -29,6 +29,15 @@ test:
   primary_exampleretailcompany:
     <<: *default
     database: exampleretailcompany_vetrina360_test
+    migrations_paths:
+      - db/migrate_tenants
+      - db/migrate_tenants/exampleretailcompany
+  primary_anotherretailcompany:
+    <<: *default
+    database: anotherretailcompany_vetrina360_test
+    migrations_paths:
+      - db/migrate_tenants
+      - db/migrate_tenants/anotherretailcompany
 
 production:
   primary:

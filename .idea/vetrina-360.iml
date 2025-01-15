@@ -55,13 +55,19 @@
     <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.5.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="date (v3.4.1, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debase (v0.2.8, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debase-ruby_core_source (v3.4.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.10.0, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.5.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="discard (v1.4.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dotenv (v3.1.7, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ed25519 (v1.3.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.13.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="et-orbi (v1.2.11, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="factory_bot (v6.5.0, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="factory_bot_rails (v6.4.4, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faker (v3.5.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fugit (v1.11.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.2.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.6, ruby-3.4.1-p0) [gem]" level="application" />
@@ -104,6 +110,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v2.2.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rackup (v2.2.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v8.0.1, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-controller-testing (v1.0.5, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.2.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.6.2, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v8.0.1, ruby-3.4.1-p0) [gem]" level="application" />
@@ -113,6 +120,11 @@
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.10.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.6.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.4.0, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.13.2, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.13.3, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.13.2, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v7.1.0, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.13.2, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop (v1.70.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-ast (v1.37.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-minitest (v0.36.0, ruby-3.4.1-p0) [gem]" level="application" />
@@ -123,6 +135,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.4.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="securerandom (v0.4.1, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v4.27.0, ruby-3.4.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="shoulda-matchers (v6.4.0, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="solid_cable (v3.0.5, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="solid_cache (v1.0.6, ruby-3.4.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="solid_queue (v1.1.2, ruby-3.4.1-p0) [gem]" level="application" />
@@ -153,78 +166,232 @@
   <component name="RailsGeneratorsCache">
     <option name="generators">
       <list>
-        <option value="active_record:migration" />
-        <option value="active_record:model" />
-        <option value="active_record:observer" />
-        <option value="active_record:session_migration" />
+        <option value="active_record:application_record" />
+        <option value="active_record:multi_db" />
+        <option value="application_record" />
+        <option value="authentication" />
+        <option value="benchmark" />
+        <option value="channel" />
         <option value="controller" />
-        <option value="erb:controller" />
-        <option value="erb:mailer" />
-        <option value="erb:scaffold" />
+        <option value="erb:authentication" />
+        <option value="factory_bot:model" />
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />
+        <option value="jbuilder" />
+        <option value="job" />
+        <option value="mailbox" />
         <option value="mailer" />
-        <option value="metal" />
         <option value="migration" />
         <option value="model" />
-        <option value="model_subclass" />
-        <option value="observer" />
-        <option value="performance_test" />
-        <option value="plugin" />
         <option value="resource" />
+        <option value="rspec:channel" />
+        <option value="rspec:controller" />
+        <option value="rspec:feature" />
+        <option value="rspec:generator" />
+        <option value="rspec:helper" />
+        <option value="rspec:install" />
+        <option value="rspec:job" />
+        <option value="rspec:mailbox" />
+        <option value="rspec:mailer" />
+        <option value="rspec:model" />
+        <option value="rspec:request" />
+        <option value="rspec:scaffold" />
+        <option value="rspec:system" />
+        <option value="rspec:view" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
-        <option value="session_migration" />
-        <option value="stylesheets" />
+        <option value="script" />
+        <option value="solid_cable:install" />
+        <option value="solid_cable:update" />
+        <option value="solid_cache:install" />
+        <option value="solid_queue:install" />
+        <option value="stimulus" />
+        <option value="system_test" />
+        <option value="task" />
+        <option value="test_unit:authentication" />
+        <option value="test_unit:channel" />
         <option value="test_unit:controller" />
+        <option value="test_unit:generator" />
         <option value="test_unit:helper" />
+        <option value="test_unit:install" />
         <option value="test_unit:integration" />
+        <option value="test_unit:job" />
+        <option value="test_unit:mailbox" />
         <option value="test_unit:mailer" />
         <option value="test_unit:model" />
-        <option value="test_unit:observer" />
-        <option value="test_unit:performance" />
         <option value="test_unit:plugin" />
         <option value="test_unit:scaffold" />
+        <option value="test_unit:system" />
       </list>
     </option>
     <option name="myGenerators">
       <list>
-        <option value="active_record:migration" />
-        <option value="active_record:model" />
-        <option value="active_record:observer" />
-        <option value="active_record:session_migration" />
+        <option value="active_record:application_record" />
+        <option value="active_record:multi_db" />
+        <option value="application_record" />
+        <option value="authentication" />
+        <option value="benchmark" />
+        <option value="channel" />
         <option value="controller" />
-        <option value="erb:controller" />
-        <option value="erb:mailer" />
-        <option value="erb:scaffold" />
+        <option value="erb:authentication" />
+        <option value="factory_bot:model" />
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />
+        <option value="jbuilder" />
+        <option value="job" />
+        <option value="mailbox" />
         <option value="mailer" />
-        <option value="metal" />
         <option value="migration" />
         <option value="model" />
-        <option value="model_subclass" />
-        <option value="observer" />
-        <option value="performance_test" />
-        <option value="plugin" />
         <option value="resource" />
+        <option value="rspec:channel" />
+        <option value="rspec:controller" />
+        <option value="rspec:feature" />
+        <option value="rspec:generator" />
+        <option value="rspec:helper" />
+        <option value="rspec:install" />
+        <option value="rspec:job" />
+        <option value="rspec:mailbox" />
+        <option value="rspec:mailer" />
+        <option value="rspec:model" />
+        <option value="rspec:request" />
+        <option value="rspec:scaffold" />
+        <option value="rspec:system" />
+        <option value="rspec:view" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
-        <option value="session_migration" />
-        <option value="stylesheets" />
+        <option value="script" />
+        <option value="solid_cable:install" />
+        <option value="solid_cable:update" />
+        <option value="solid_cache:install" />
+        <option value="solid_queue:install" />
+        <option value="stimulus" />
+        <option value="system_test" />
+        <option value="task" />
+        <option value="test_unit:authentication" />
+        <option value="test_unit:channel" />
         <option value="test_unit:controller" />
+        <option value="test_unit:generator" />
         <option value="test_unit:helper" />
+        <option value="test_unit:install" />
         <option value="test_unit:integration" />
+        <option value="test_unit:job" />
+        <option value="test_unit:mailbox" />
         <option value="test_unit:mailer" />
         <option value="test_unit:model" />
-        <option value="test_unit:observer" />
-        <option value="test_unit:performance" />
         <option value="test_unit:plugin" />
         <option value="test_unit:scaffold" />
+        <option value="test_unit:system" />
       </list>
     </option>
+  </component>
+  <component name="RailsPaths" isManagedAutomatically="true">
+    <entry key="app">
+      <value>file://$MODULE_DIR$/app</value>
+    </entry>
+    <entry key="app/assets">
+      <value>file://$MODULE_DIR$/app/assets</value>
+    </entry>
+    <entry key="app/channels">
+      <value>file://$MODULE_DIR$/app/channels</value>
+    </entry>
+    <entry key="app/controllers">
+      <value>file://$MODULE_DIR$/app/controllers</value>
+    </entry>
+    <entry key="app/helpers">
+      <value>file://$MODULE_DIR$/app/helpers</value>
+    </entry>
+    <entry key="app/mailers">
+      <value>file://$MODULE_DIR$/app/mailers</value>
+    </entry>
+    <entry key="app/models">
+      <value>file://$MODULE_DIR$/app/models</value>
+    </entry>
+    <entry key="app/views">
+      <value>file://$MODULE_DIR$/app/views</value>
+    </entry>
+    <entry key="config">
+      <value>file://$MODULE_DIR$/config</value>
+    </entry>
+    <entry key="config/cable">
+      <value>file://$MODULE_DIR$/config/cable.yml</value>
+    </entry>
+    <entry key="config/cache">
+      <value>file://$MODULE_DIR$/config/cache.yml</value>
+    </entry>
+    <entry key="config/database">
+      <value>file://$MODULE_DIR$/config/database.yml</value>
+    </entry>
+    <entry key="config/environment">
+      <value>file://$MODULE_DIR$/config/environment.rb</value>
+    </entry>
+    <entry key="config/environments">
+      <value>file://$MODULE_DIR$/config/environments</value>
+    </entry>
+    <entry key="config/initializers">
+      <value>file://$MODULE_DIR$/config/initializers</value>
+    </entry>
+    <entry key="config/locales">
+      <value>file://$MODULE_DIR$/config/locales</value>
+    </entry>
+    <entry key="config/routes">
+      <value>file://$MODULE_DIR$/config/routes</value>
+    </entry>
+    <entry key="config/routes.rb">
+      <value>file://$MODULE_DIR$/config/routes.rb</value>
+    </entry>
+    <entry key="config/solid_cache">
+      <value>file://$MODULE_DIR$/config/solid_cache.yml</value>
+    </entry>
+    <entry key="db">
+      <value>file://$MODULE_DIR$/db</value>
+    </entry>
+    <entry key="db/migrate">
+      <value>file://$MODULE_DIR$/db/migrate</value>
+    </entry>
+    <entry key="db/seeds.rb">
+      <value>file://$MODULE_DIR$/db/seeds.rb</value>
+    </entry>
+    <entry key="lib">
+      <value>file://$MODULE_DIR$/lib</value>
+    </entry>
+    <entry key="lib/assets">
+      <value>file://$MODULE_DIR$/lib/assets</value>
+    </entry>
+    <entry key="lib/tasks">
+      <value>file://$MODULE_DIR$/lib/tasks</value>
+    </entry>
+    <entry key="lib/templates">
+      <value>file://$MODULE_DIR$/lib/templates</value>
+    </entry>
+    <entry key="log">
+      <value>file://$MODULE_DIR$/log/development.log</value>
+    </entry>
+    <entry key="public">
+      <value>file://$MODULE_DIR$/public</value>
+    </entry>
+    <entry key="public/javascripts">
+      <value>file://$MODULE_DIR$/public/javascripts</value>
+    </entry>
+    <entry key="public/stylesheets">
+      <value>file://$MODULE_DIR$/public/stylesheets</value>
+    </entry>
+    <entry key="test/mailers/previews">
+      <value>file://$MODULE_DIR$/spec/mailers/previews</value>
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
+    </entry>
+    <entry key="tmp">
+      <value>file://$MODULE_DIR$/tmp</value>
+    </entry>
+    <entry key="vendor">
+      <value>file://$MODULE_DIR$/vendor</value>
+    </entry>
+    <entry key="vendor/assets">
+      <value>file://$MODULE_DIR$/vendor/assets</value>
+    </entry>
   </component>
   <component name="RakeTasksCache">
     <option name="myRootTask">
@@ -302,7 +469,24 @@
           <RakeTaskImpl id="db">
             <subtasks>
               <RakeTaskImpl description="Create the database from DATABASE_URL or config/database.yml for the current RAILS_ENV (use db:create:all to create all databases in the config). Without RAILS_ENV or when RAILS_ENV is development, it defaults to creating the development and test databases, except when DATABASE_URL is present" fullCommand="db:create" id="create" />
+              <RakeTaskImpl id="create">
+                <subtasks>
+                  <RakeTaskImpl description="Create primary database for current environment" fullCommand="db:create:primary" id="primary" />
+                  <RakeTaskImpl description="Create primary_anotherretailcompany database for current environment" fullCommand="db:create:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Create primary_exampleretailcompany database for current environment" fullCommand="db:create:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:create:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
               <RakeTaskImpl description="Drop the database from DATABASE_URL or config/database.yml for the current RAILS_ENV (use db:drop:all to drop all databases in the config). Without RAILS_ENV or when RAILS_ENV is development, it defaults to dropping the development and test databases, except when DATABASE_URL is present" fullCommand="db:drop" id="drop" />
+              <RakeTaskImpl id="drop">
+                <subtasks>
+                  <RakeTaskImpl description="Drop primary database for current environment" fullCommand="db:drop:primary" id="primary" />
+                  <RakeTaskImpl description="Drop primary_anotherretailcompany database for current environment" fullCommand="db:drop:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Drop primary_exampleretailcompany database for current environment" fullCommand="db:drop:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:drop:_unsafe" id="_unsafe" />
+                  <RakeTaskImpl description="" fullCommand="db:drop:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
               <RakeTaskImpl id="encryption">
                 <subtasks>
                   <RakeTaskImpl description="Generate a set of keys for configuring Active Record encryption in a given environment" fullCommand="db:encryption:init" id="init" />
@@ -323,15 +507,61 @@
               <RakeTaskImpl id="migrate">
                 <subtasks>
                   <RakeTaskImpl description="Run the &quot;down&quot; for a given migration VERSION" fullCommand="db:migrate:down" id="down" />
+                  <RakeTaskImpl id="down">
+                    <subtasks>
+                      <RakeTaskImpl description="Run the &quot;down&quot; on primary database for a given migration VERSION" fullCommand="db:migrate:down:primary" id="primary" />
+                      <RakeTaskImpl description="Run the &quot;down&quot; on primary_anotherretailcompany database for a given migration VERSION" fullCommand="db:migrate:down:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Run the &quot;down&quot; on primary_exampleretailcompany database for a given migration VERSION" fullCommand="db:migrate:down:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="Migrate primary database for current environment" fullCommand="db:migrate:primary" id="primary" />
+                  <RakeTaskImpl description="Migrate primary_anotherretailcompany database for current environment" fullCommand="db:migrate:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Migrate primary_exampleretailcompany database for current environment" fullCommand="db:migrate:primary_exampleretailcompany" id="primary_exampleretailcompany" />
                   <RakeTaskImpl description="Roll back the database one migration and re-migrate up (options: STEP=x, VERSION=x)" fullCommand="db:migrate:redo" id="redo" />
+                  <RakeTaskImpl id="redo">
+                    <subtasks>
+                      <RakeTaskImpl description="Roll back primary database one migration and re-migrate up (options: STEP=x, VERSION=x)" fullCommand="db:migrate:redo:primary" id="primary" />
+                      <RakeTaskImpl description="Roll back primary_anotherretailcompany database one migration and re-migrate up (options: STEP=x, VERSION=x)" fullCommand="db:migrate:redo:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Roll back primary_exampleretailcompany database one migration and re-migrate up (options: STEP=x, VERSION=x)" fullCommand="db:migrate:redo:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
                   <RakeTaskImpl description="Display status of migrations" fullCommand="db:migrate:status" id="status" />
+                  <RakeTaskImpl id="status">
+                    <subtasks>
+                      <RakeTaskImpl description="Display status of migrations for primary database" fullCommand="db:migrate:status:primary" id="primary" />
+                      <RakeTaskImpl description="Display status of migrations for primary_anotherretailcompany database" fullCommand="db:migrate:status:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Display status of migrations for primary_exampleretailcompany database" fullCommand="db:migrate:status:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
                   <RakeTaskImpl description="Run the &quot;up&quot; for a given migration VERSION" fullCommand="db:migrate:up" id="up" />
+                  <RakeTaskImpl id="up">
+                    <subtasks>
+                      <RakeTaskImpl description="Run the &quot;up&quot; on primary database for a given migration VERSION" fullCommand="db:migrate:up:primary" id="primary" />
+                      <RakeTaskImpl description="Run the &quot;up&quot; on primary_anotherretailcompany database for a given migration VERSION" fullCommand="db:migrate:up:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Run the &quot;up&quot; on primary_exampleretailcompany database for a given migration VERSION" fullCommand="db:migrate:up:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
                   <RakeTaskImpl description="" fullCommand="db:migrate:reset" id="reset" />
                 </subtasks>
               </RakeTaskImpl>
               <RakeTaskImpl description="Run setup if database does not exist, or run migrations if it does" fullCommand="db:prepare" id="prepare" />
               <RakeTaskImpl description="Drop and recreate all databases from their schema for the current environment and load the seeds" fullCommand="db:reset" id="reset" />
+              <RakeTaskImpl id="reset">
+                <subtasks>
+                  <RakeTaskImpl description="Drop and recreate the primary database from its schema for the current environment and load the seeds" fullCommand="db:reset:primary" id="primary" />
+                  <RakeTaskImpl description="Drop and recreate the primary_anotherretailcompany database from its schema for the current environment and load the seeds" fullCommand="db:reset:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Drop and recreate the primary_exampleretailcompany database from its schema for the current environment and load the seeds" fullCommand="db:reset:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:reset:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
               <RakeTaskImpl description="Roll the schema back to the previous version (specify steps w/ STEP=n)" fullCommand="db:rollback" id="rollback" />
+              <RakeTaskImpl id="rollback">
+                <subtasks>
+                  <RakeTaskImpl description="Rollback primary database for current environment (specify steps w/ STEP=n)" fullCommand="db:rollback:primary" id="primary" />
+                  <RakeTaskImpl description="Rollback primary_anotherretailcompany database for current environment (specify steps w/ STEP=n)" fullCommand="db:rollback:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Rollback primary_exampleretailcompany database for current environment (specify steps w/ STEP=n)" fullCommand="db:rollback:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                </subtasks>
+              </RakeTaskImpl>
               <RakeTaskImpl id="schema">
                 <subtasks>
                   <RakeTaskImpl id="cache">
@@ -341,7 +571,21 @@
                     </subtasks>
                   </RakeTaskImpl>
                   <RakeTaskImpl description="Create a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`)" fullCommand="db:schema:dump" id="dump" />
+                  <RakeTaskImpl id="dump">
+                    <subtasks>
+                      <RakeTaskImpl description="Create a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) for primary database" fullCommand="db:schema:dump:primary" id="primary" />
+                      <RakeTaskImpl description="Create a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) for primary_anotherretailcompany database" fullCommand="db:schema:dump:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Create a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) for primary_exampleretailcompany database" fullCommand="db:schema:dump:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
                   <RakeTaskImpl description="Load a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) into the database" fullCommand="db:schema:load" id="load" />
+                  <RakeTaskImpl id="load">
+                    <subtasks>
+                      <RakeTaskImpl description="Load a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) into the primary database" fullCommand="db:schema:load:primary" id="primary" />
+                      <RakeTaskImpl description="Load a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) into the primary_anotherretailcompany database" fullCommand="db:schema:load:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Load a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) into the primary_exampleretailcompany database" fullCommand="db:schema:load:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
                 </subtasks>
               </RakeTaskImpl>
               <RakeTaskImpl description="Load the seed data from db/seeds.rb" fullCommand="db:seed" id="seed" />
@@ -351,23 +595,41 @@
                 </subtasks>
               </RakeTaskImpl>
               <RakeTaskImpl description="Create all databases, load all schemas, and initialize with the seed data (use db:reset to also drop all databases first)" fullCommand="db:setup" id="setup" />
+              <RakeTaskImpl id="setup">
+                <subtasks>
+                  <RakeTaskImpl description="Create the primary database, load the schema, and initialize with the seed data (use db:reset:primary to also drop the database first)" fullCommand="db:setup:primary" id="primary" />
+                  <RakeTaskImpl description="Create the primary_anotherretailcompany database, load the schema, and initialize with the seed data (use db:reset:primary_anotherretailcompany to also drop the database first)" fullCommand="db:setup:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Create the primary_exampleretailcompany database, load the schema, and initialize with the seed data (use db:reset:primary_exampleretailcompany to also drop the database first)" fullCommand="db:setup:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:setup:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
               <RakeTaskImpl description="Retrieve the current schema version number" fullCommand="db:version" id="version" />
+              <RakeTaskImpl id="version">
+                <subtasks>
+                  <RakeTaskImpl description="Retrieve the current schema version number for primary database" fullCommand="db:version:primary" id="primary" />
+                  <RakeTaskImpl description="Retrieve the current schema version number for primary_anotherretailcompany database" fullCommand="db:version:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Retrieve the current schema version number for primary_exampleretailcompany database" fullCommand="db:version:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                </subtasks>
+              </RakeTaskImpl>
               <RakeTaskImpl description="" fullCommand="db:_dump" id="_dump" />
+              <RakeTaskImpl id="_dump">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:_dump:primary" id="primary" />
+                  <RakeTaskImpl description="" fullCommand="db:_dump:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:_dump:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                </subtasks>
+              </RakeTaskImpl>
               <RakeTaskImpl description="" fullCommand="db:abort_if_pending_migrations" id="abort_if_pending_migrations" />
+              <RakeTaskImpl id="abort_if_pending_migrations">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:abort_if_pending_migrations:primary" id="primary" />
+                  <RakeTaskImpl description="" fullCommand="db:abort_if_pending_migrations:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:abort_if_pending_migrations:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                </subtasks>
+              </RakeTaskImpl>
               <RakeTaskImpl description="" fullCommand="db:charset" id="charset" />
               <RakeTaskImpl description="" fullCommand="db:check_protected_environments" id="check_protected_environments" />
               <RakeTaskImpl description="" fullCommand="db:collation" id="collation" />
-              <RakeTaskImpl id="create">
-                <subtasks>
-                  <RakeTaskImpl description="" fullCommand="db:create:all" id="all" />
-                </subtasks>
-              </RakeTaskImpl>
-              <RakeTaskImpl id="drop">
-                <subtasks>
-                  <RakeTaskImpl description="" fullCommand="db:drop:_unsafe" id="_unsafe" />
-                  <RakeTaskImpl description="" fullCommand="db:drop:all" id="all" />
-                </subtasks>
-              </RakeTaskImpl>
               <RakeTaskImpl description="" fullCommand="db:forward" id="forward" />
               <RakeTaskImpl description="" fullCommand="db:load_config" id="load_config" />
               <RakeTaskImpl description="" fullCommand="db:purge" id="purge" />
@@ -376,21 +638,32 @@
                   <RakeTaskImpl description="" fullCommand="db:purge:all" id="all" />
                 </subtasks>
               </RakeTaskImpl>
-              <RakeTaskImpl id="reset">
-                <subtasks>
-                  <RakeTaskImpl description="" fullCommand="db:reset:all" id="all" />
-                </subtasks>
-              </RakeTaskImpl>
-              <RakeTaskImpl id="setup">
-                <subtasks>
-                  <RakeTaskImpl description="" fullCommand="db:setup:all" id="all" />
-                </subtasks>
-              </RakeTaskImpl>
               <RakeTaskImpl id="test">
                 <subtasks>
                   <RakeTaskImpl description="" fullCommand="db:test:load_schema" id="load_schema" />
+                  <RakeTaskImpl id="load_schema">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="db:test:load_schema:primary" id="primary" />
+                      <RakeTaskImpl description="" fullCommand="db:test:load_schema:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="" fullCommand="db:test:load_schema:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
                   <RakeTaskImpl description="" fullCommand="db:test:prepare" id="prepare" />
+                  <RakeTaskImpl id="prepare">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="db:test:prepare:primary" id="primary" />
+                      <RakeTaskImpl description="" fullCommand="db:test:prepare:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="" fullCommand="db:test:prepare:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
                   <RakeTaskImpl description="" fullCommand="db:test:purge" id="purge" />
+                  <RakeTaskImpl id="purge">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="db:test:purge:primary" id="primary" />
+                      <RakeTaskImpl description="" fullCommand="db:test:purge:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="" fullCommand="db:test:purge:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
                 </subtasks>
               </RakeTaskImpl>
               <RakeTaskImpl description="" fullCommand="db:truncate_all" id="truncate_all" />
@@ -421,6 +694,450 @@
             <subtasks>
               <RakeTaskImpl description="Install Solid Queue" fullCommand="solid_queue:install" id="install" />
               <RakeTaskImpl description="start solid_queue supervisor to dispatch and process jobs" fullCommand="solid_queue:start" id="start" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Run all specs in spec directory (excluding plugin specs)" fullCommand="spec" id="spec" />
+          <RakeTaskImpl id="spec">
+            <subtasks>
+              <RakeTaskImpl description="Run the code examples in spec/controllers" fullCommand="spec:controllers" id="controllers" />
+              <RakeTaskImpl description="" fullCommand="spec:prepare" id="prepare" />
+              <RakeTaskImpl description="" fullCommand="spec:statsetup" id="statsetup" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Report code statistics (KLOCs, etc) from the application or engine" fullCommand="stats" id="stats" />
+          <RakeTaskImpl id="stimulus">
+            <subtasks>
+              <RakeTaskImpl description="Install Stimulus into the app" fullCommand="stimulus:install" id="install" />
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="Install Stimulus on an app running bun" fullCommand="stimulus:install:bun" id="bun" />
+                  <RakeTaskImpl description="Install Stimulus on an app running importmap-rails" fullCommand="stimulus:install:importmap" id="importmap" />
+                  <RakeTaskImpl description="Install Stimulus on an app running node" fullCommand="stimulus:install:node" id="node" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="manifest">
+                <subtasks>
+                  <RakeTaskImpl description="Show the current Stimulus manifest (all installed controllers)" fullCommand="stimulus:manifest:display" id="display" />
+                  <RakeTaskImpl description="Update the Stimulus manifest (will overwrite controllers/index.js)" fullCommand="stimulus:manifest:update" id="update" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Run all tests in test folder except system ones" fullCommand="test" id="test" />
+          <RakeTaskImpl id="test">
+            <subtasks>
+              <RakeTaskImpl description="Reset the database and run `bin/rails test`" fullCommand="test:db" id="db" />
+              <RakeTaskImpl description="" fullCommand="test:all" id="all" />
+              <RakeTaskImpl description="" fullCommand="test:channels" id="channels" />
+              <RakeTaskImpl description="" fullCommand="test:controllers" id="controllers" />
+              <RakeTaskImpl description="" fullCommand="test:functionals" id="functionals" />
+              <RakeTaskImpl description="" fullCommand="test:generators" id="generators" />
+              <RakeTaskImpl description="" fullCommand="test:helpers" id="helpers" />
+              <RakeTaskImpl description="" fullCommand="test:integration" id="integration" />
+              <RakeTaskImpl description="" fullCommand="test:jobs" id="jobs" />
+              <RakeTaskImpl description="" fullCommand="test:mailboxes" id="mailboxes" />
+              <RakeTaskImpl description="" fullCommand="test:mailers" id="mailers" />
+              <RakeTaskImpl description="" fullCommand="test:models" id="models" />
+              <RakeTaskImpl description="" fullCommand="test:prepare" id="prepare" />
+              <RakeTaskImpl description="" fullCommand="test:run" id="run" />
+              <RakeTaskImpl description="" fullCommand="test:system" id="system" />
+              <RakeTaskImpl description="" fullCommand="test:units" id="units" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="time">
+            <subtasks>
+              <RakeTaskImpl description="List all time zones, list by two-letter country code (`bin/rails time:zones[US]`), or list by UTC offset (`bin/rails time:zones[-8]`)" fullCommand="time:zones[country_or_offset]" id="zones[country_or_offset]" />
+              <RakeTaskImpl description="" fullCommand="time:zones" id="zones" />
+              <RakeTaskImpl id="zones">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="time:zones:all" id="all" />
+                  <RakeTaskImpl description="" fullCommand="time:zones:local" id="local" />
+                  <RakeTaskImpl description="" fullCommand="time:zones:us" id="us" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="tmp">
+            <subtasks>
+              <RakeTaskImpl description="Clear cache, socket and screenshot files from tmp/ (narrow w/ tmp:cache:clear, tmp:sockets:clear, tmp:screenshots:clear)" fullCommand="tmp:clear" id="clear" />
+              <RakeTaskImpl description="Create tmp directories for cache, sockets, and pids" fullCommand="tmp:create" id="create" />
+              <RakeTaskImpl id="cache">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:cache:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="pids">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:pids:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="screenshots">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:screenshots:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="sockets">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:sockets:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="storage">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:storage:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="turbo">
+            <subtasks>
+              <RakeTaskImpl description="Install Turbo into the app" fullCommand="turbo:install" id="install" />
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="Install Turbo into the app with bun" fullCommand="turbo:install:bun" id="bun" />
+                  <RakeTaskImpl description="Install Turbo into the app with asset pipeline" fullCommand="turbo:install:importmap" id="importmap" />
+                  <RakeTaskImpl description="Install Turbo into the app with webpacker" fullCommand="turbo:install:node" id="node" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="yarn">
+            <subtasks>
+              <RakeTaskImpl description="Install all JavaScript dependencies as specified via Yarn" fullCommand="yarn:install" id="install" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="zeitwerk">
+            <subtasks>
+              <RakeTaskImpl description="Check project structure for Zeitwerk compatibility" fullCommand="zeitwerk:check" id="check" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="default" id="default" />
+          <RakeTaskImpl description="" fullCommand="environment" id="environment" />
+          <RakeTaskImpl id="railties">
+            <subtasks>
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="railties:install:migrations" id="migrations" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="tmp" id="tmp" />
+          <RakeTaskImpl description="" fullCommand="tmp/cache" id="tmp/cache" />
+          <RakeTaskImpl description="" fullCommand="tmp/pids" id="tmp/pids" />
+          <RakeTaskImpl description="" fullCommand="tmp/sockets" id="tmp/sockets" />
+        </subtasks>
+      </RakeTaskImpl>
+    </option>
+  </component>
+  <component name="RakeTasksCache-v2">
+    <option name="myRootTask">
+      <RakeTaskImpl id="rake">
+        <subtasks>
+          <RakeTaskImpl id="action_mailbox">
+            <subtasks>
+              <RakeTaskImpl id="ingress">
+                <subtasks>
+                  <RakeTaskImpl description="Relay an inbound email from Exim to Action Mailbox (URL and INGRESS_PASSWORD required)" fullCommand="action_mailbox:ingress:exim" id="exim" />
+                  <RakeTaskImpl description="Relay an inbound email from Postfix to Action Mailbox (URL and INGRESS_PASSWORD required)" fullCommand="action_mailbox:ingress:postfix" id="postfix" />
+                  <RakeTaskImpl description="Relay an inbound email from Qmail to Action Mailbox (URL and INGRESS_PASSWORD required)" fullCommand="action_mailbox:ingress:qmail" id="qmail" />
+                  <RakeTaskImpl description="" fullCommand="action_mailbox:ingress:environment" id="environment" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="Install Action Mailbox and its dependencies" fullCommand="action_mailbox:install" id="install" />
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="Copy migrations from action_mailbox to application" fullCommand="action_mailbox:install:migrations" id="migrations" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="action_text">
+            <subtasks>
+              <RakeTaskImpl description="Copy over the migration, stylesheet, and JavaScript files" fullCommand="action_text:install" id="install" />
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="Copy migrations from action_text to application" fullCommand="action_text:install:migrations" id="migrations" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="active_storage">
+            <subtasks>
+              <RakeTaskImpl description="Copy over the migration needed to the application" fullCommand="active_storage:install" id="install" />
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="active_storage:install:migrations" id="migrations" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="active_storage:update" id="update" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="app">
+            <subtasks>
+              <RakeTaskImpl description="Apply the template supplied by LOCATION=(/path/to/template) or URL" fullCommand="app:template" id="template" />
+              <RakeTaskImpl id="templates">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="app:templates:copy" id="copy" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="assets">
+            <subtasks>
+              <RakeTaskImpl description="Removes old files in config.assets.output_path" fullCommand="assets:clean[count]" id="clean[count]" />
+              <RakeTaskImpl description="Remove config.assets.output_path" fullCommand="assets:clobber" id="clobber" />
+              <RakeTaskImpl description="Compile all the assets from config.assets.paths" fullCommand="assets:precompile" id="precompile" />
+              <RakeTaskImpl description="Print all the assets available in config.assets.paths" fullCommand="assets:reveal" id="reveal" />
+              <RakeTaskImpl id="reveal">
+                <subtasks>
+                  <RakeTaskImpl description="Print the full path of assets available in config.assets.paths" fullCommand="assets:reveal:full" id="full" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="assets:clean" id="clean" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="cache_digests">
+            <subtasks>
+              <RakeTaskImpl description="Lookup first-level dependencies for TEMPLATE (like messages/show or comments/_comment.html)" fullCommand="cache_digests:dependencies" id="dependencies" />
+              <RakeTaskImpl description="Lookup nested dependencies for TEMPLATE (like messages/show or comments/_comment.html)" fullCommand="cache_digests:nested_dependencies" id="nested_dependencies" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="db">
+            <subtasks>
+              <RakeTaskImpl description="Create the database from DATABASE_URL or config/database.yml for the current RAILS_ENV (use db:create:all to create all databases in the config). Without RAILS_ENV or when RAILS_ENV is development, it defaults to creating the development and test databases, except when DATABASE_URL is present" fullCommand="db:create" id="create" />
+              <RakeTaskImpl id="create">
+                <subtasks>
+                  <RakeTaskImpl description="Create primary database for current environment" fullCommand="db:create:primary" id="primary" />
+                  <RakeTaskImpl description="Create primary_anotherretailcompany database for current environment" fullCommand="db:create:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Create primary_exampleretailcompany database for current environment" fullCommand="db:create:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:create:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="Drop the database from DATABASE_URL or config/database.yml for the current RAILS_ENV (use db:drop:all to drop all databases in the config). Without RAILS_ENV or when RAILS_ENV is development, it defaults to dropping the development and test databases, except when DATABASE_URL is present" fullCommand="db:drop" id="drop" />
+              <RakeTaskImpl id="drop">
+                <subtasks>
+                  <RakeTaskImpl description="Drop primary database for current environment" fullCommand="db:drop:primary" id="primary" />
+                  <RakeTaskImpl description="Drop primary_anotherretailcompany database for current environment" fullCommand="db:drop:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Drop primary_exampleretailcompany database for current environment" fullCommand="db:drop:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:drop:_unsafe" id="_unsafe" />
+                  <RakeTaskImpl description="" fullCommand="db:drop:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="encryption">
+                <subtasks>
+                  <RakeTaskImpl description="Generate a set of keys for configuring Active Record encryption in a given environment" fullCommand="db:encryption:init" id="init" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="environment">
+                <subtasks>
+                  <RakeTaskImpl description="Set the environment value for the database" fullCommand="db:environment:set" id="set" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="fixtures">
+                <subtasks>
+                  <RakeTaskImpl description="Load fixtures into the current environment's database" fullCommand="db:fixtures:load" id="load" />
+                  <RakeTaskImpl description="" fullCommand="db:fixtures:identify" id="identify" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="Migrate the database (options: VERSION=x, VERBOSE=false, SCOPE=blog)" fullCommand="db:migrate" id="migrate" />
+              <RakeTaskImpl id="migrate">
+                <subtasks>
+                  <RakeTaskImpl description="Run the &quot;down&quot; for a given migration VERSION" fullCommand="db:migrate:down" id="down" />
+                  <RakeTaskImpl id="down">
+                    <subtasks>
+                      <RakeTaskImpl description="Run the &quot;down&quot; on primary database for a given migration VERSION" fullCommand="db:migrate:down:primary" id="primary" />
+                      <RakeTaskImpl description="Run the &quot;down&quot; on primary_anotherretailcompany database for a given migration VERSION" fullCommand="db:migrate:down:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Run the &quot;down&quot; on primary_exampleretailcompany database for a given migration VERSION" fullCommand="db:migrate:down:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="Migrate primary database for current environment" fullCommand="db:migrate:primary" id="primary" />
+                  <RakeTaskImpl description="Migrate primary_anotherretailcompany database for current environment" fullCommand="db:migrate:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Migrate primary_exampleretailcompany database for current environment" fullCommand="db:migrate:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                  <RakeTaskImpl description="Roll back the database one migration and re-migrate up (options: STEP=x, VERSION=x)" fullCommand="db:migrate:redo" id="redo" />
+                  <RakeTaskImpl id="redo">
+                    <subtasks>
+                      <RakeTaskImpl description="Roll back primary database one migration and re-migrate up (options: STEP=x, VERSION=x)" fullCommand="db:migrate:redo:primary" id="primary" />
+                      <RakeTaskImpl description="Roll back primary_anotherretailcompany database one migration and re-migrate up (options: STEP=x, VERSION=x)" fullCommand="db:migrate:redo:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Roll back primary_exampleretailcompany database one migration and re-migrate up (options: STEP=x, VERSION=x)" fullCommand="db:migrate:redo:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="Display status of migrations" fullCommand="db:migrate:status" id="status" />
+                  <RakeTaskImpl id="status">
+                    <subtasks>
+                      <RakeTaskImpl description="Display status of migrations for primary database" fullCommand="db:migrate:status:primary" id="primary" />
+                      <RakeTaskImpl description="Display status of migrations for primary_anotherretailcompany database" fullCommand="db:migrate:status:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Display status of migrations for primary_exampleretailcompany database" fullCommand="db:migrate:status:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="Run the &quot;up&quot; for a given migration VERSION" fullCommand="db:migrate:up" id="up" />
+                  <RakeTaskImpl id="up">
+                    <subtasks>
+                      <RakeTaskImpl description="Run the &quot;up&quot; on primary database for a given migration VERSION" fullCommand="db:migrate:up:primary" id="primary" />
+                      <RakeTaskImpl description="Run the &quot;up&quot; on primary_anotherretailcompany database for a given migration VERSION" fullCommand="db:migrate:up:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Run the &quot;up&quot; on primary_exampleretailcompany database for a given migration VERSION" fullCommand="db:migrate:up:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="" fullCommand="db:migrate:reset" id="reset" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="Run setup if database does not exist, or run migrations if it does" fullCommand="db:prepare" id="prepare" />
+              <RakeTaskImpl description="Drop and recreate all databases from their schema for the current environment and load the seeds" fullCommand="db:reset" id="reset" />
+              <RakeTaskImpl id="reset">
+                <subtasks>
+                  <RakeTaskImpl description="Drop and recreate the primary database from its schema for the current environment and load the seeds" fullCommand="db:reset:primary" id="primary" />
+                  <RakeTaskImpl description="Drop and recreate the primary_anotherretailcompany database from its schema for the current environment and load the seeds" fullCommand="db:reset:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Drop and recreate the primary_exampleretailcompany database from its schema for the current environment and load the seeds" fullCommand="db:reset:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:reset:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="Roll the schema back to the previous version (specify steps w/ STEP=n)" fullCommand="db:rollback" id="rollback" />
+              <RakeTaskImpl id="rollback">
+                <subtasks>
+                  <RakeTaskImpl description="Rollback primary database for current environment (specify steps w/ STEP=n)" fullCommand="db:rollback:primary" id="primary" />
+                  <RakeTaskImpl description="Rollback primary_anotherretailcompany database for current environment (specify steps w/ STEP=n)" fullCommand="db:rollback:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Rollback primary_exampleretailcompany database for current environment (specify steps w/ STEP=n)" fullCommand="db:rollback:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="schema">
+                <subtasks>
+                  <RakeTaskImpl id="cache">
+                    <subtasks>
+                      <RakeTaskImpl description="Clear a db/schema_cache.yml file" fullCommand="db:schema:cache:clear" id="clear" />
+                      <RakeTaskImpl description="Create a db/schema_cache.yml file" fullCommand="db:schema:cache:dump" id="dump" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="Create a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`)" fullCommand="db:schema:dump" id="dump" />
+                  <RakeTaskImpl id="dump">
+                    <subtasks>
+                      <RakeTaskImpl description="Create a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) for primary database" fullCommand="db:schema:dump:primary" id="primary" />
+                      <RakeTaskImpl description="Create a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) for primary_anotherretailcompany database" fullCommand="db:schema:dump:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Create a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) for primary_exampleretailcompany database" fullCommand="db:schema:dump:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="Load a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) into the database" fullCommand="db:schema:load" id="load" />
+                  <RakeTaskImpl id="load">
+                    <subtasks>
+                      <RakeTaskImpl description="Load a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) into the primary database" fullCommand="db:schema:load:primary" id="primary" />
+                      <RakeTaskImpl description="Load a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) into the primary_anotherretailcompany database" fullCommand="db:schema:load:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="Load a database schema file (either db/schema.rb or db/structure.sql, depending on `ENV['SCHEMA_FORMAT']` or `config.active_record.schema_format`) into the primary_exampleretailcompany database" fullCommand="db:schema:load:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="Load the seed data from db/seeds.rb" fullCommand="db:seed" id="seed" />
+              <RakeTaskImpl id="seed">
+                <subtasks>
+                  <RakeTaskImpl description="Truncate tables of each database for current environment and load the seeds" fullCommand="db:seed:replant" id="replant" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="Create all databases, load all schemas, and initialize with the seed data (use db:reset to also drop all databases first)" fullCommand="db:setup" id="setup" />
+              <RakeTaskImpl id="setup">
+                <subtasks>
+                  <RakeTaskImpl description="Create the primary database, load the schema, and initialize with the seed data (use db:reset:primary to also drop the database first)" fullCommand="db:setup:primary" id="primary" />
+                  <RakeTaskImpl description="Create the primary_anotherretailcompany database, load the schema, and initialize with the seed data (use db:reset:primary_anotherretailcompany to also drop the database first)" fullCommand="db:setup:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Create the primary_exampleretailcompany database, load the schema, and initialize with the seed data (use db:reset:primary_exampleretailcompany to also drop the database first)" fullCommand="db:setup:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:setup:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="Retrieve the current schema version number" fullCommand="db:version" id="version" />
+              <RakeTaskImpl id="version">
+                <subtasks>
+                  <RakeTaskImpl description="Retrieve the current schema version number for primary database" fullCommand="db:version:primary" id="primary" />
+                  <RakeTaskImpl description="Retrieve the current schema version number for primary_anotherretailcompany database" fullCommand="db:version:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="Retrieve the current schema version number for primary_exampleretailcompany database" fullCommand="db:version:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:_dump" id="_dump" />
+              <RakeTaskImpl id="_dump">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:_dump:primary" id="primary" />
+                  <RakeTaskImpl description="" fullCommand="db:_dump:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:_dump:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:abort_if_pending_migrations" id="abort_if_pending_migrations" />
+              <RakeTaskImpl id="abort_if_pending_migrations">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:abort_if_pending_migrations:primary" id="primary" />
+                  <RakeTaskImpl description="" fullCommand="db:abort_if_pending_migrations:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                  <RakeTaskImpl description="" fullCommand="db:abort_if_pending_migrations:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:charset" id="charset" />
+              <RakeTaskImpl description="" fullCommand="db:check_protected_environments" id="check_protected_environments" />
+              <RakeTaskImpl description="" fullCommand="db:collation" id="collation" />
+              <RakeTaskImpl description="" fullCommand="db:forward" id="forward" />
+              <RakeTaskImpl description="" fullCommand="db:load_config" id="load_config" />
+              <RakeTaskImpl description="" fullCommand="db:purge" id="purge" />
+              <RakeTaskImpl id="purge">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:purge:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="test">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:test:load_schema" id="load_schema" />
+                  <RakeTaskImpl id="load_schema">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="db:test:load_schema:primary" id="primary" />
+                      <RakeTaskImpl description="" fullCommand="db:test:load_schema:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="" fullCommand="db:test:load_schema:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="" fullCommand="db:test:prepare" id="prepare" />
+                  <RakeTaskImpl id="prepare">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="db:test:prepare:primary" id="primary" />
+                      <RakeTaskImpl description="" fullCommand="db:test:prepare:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="" fullCommand="db:test:prepare:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="" fullCommand="db:test:purge" id="purge" />
+                  <RakeTaskImpl id="purge">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="db:test:purge:primary" id="primary" />
+                      <RakeTaskImpl description="" fullCommand="db:test:purge:primary_anotherretailcompany" id="primary_anotherretailcompany" />
+                      <RakeTaskImpl description="" fullCommand="db:test:purge:primary_exampleretailcompany" id="primary_exampleretailcompany" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:truncate_all" id="truncate_all" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="importmap">
+            <subtasks>
+              <RakeTaskImpl description="Setup Importmap for the app" fullCommand="importmap:install" id="install" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="log">
+            <subtasks>
+              <RakeTaskImpl description="Truncate all/specified *.log files in log/ to zero bytes (specify which logs with LOGS=test,development)" fullCommand="log:clear" id="clear" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="solid_cable">
+            <subtasks>
+              <RakeTaskImpl description="Copy over the schema and set cable adapter for Solid Cable" fullCommand="solid_cable:install" id="install" />
+              <RakeTaskImpl description="" fullCommand="solid_cable:update" id="update" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="solid_cache">
+            <subtasks>
+              <RakeTaskImpl description="Copy over the migration, and set cache" fullCommand="solid_cache:install" id="install" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="solid_queue">
+            <subtasks>
+              <RakeTaskImpl description="Install Solid Queue" fullCommand="solid_queue:install" id="install" />
+              <RakeTaskImpl description="start solid_queue supervisor to dispatch and process jobs" fullCommand="solid_queue:start" id="start" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Run all specs in spec directory (excluding plugin specs)" fullCommand="spec" id="spec" />
+          <RakeTaskImpl id="spec">
+            <subtasks>
+              <RakeTaskImpl description="Run the code examples in spec/controllers" fullCommand="spec:controllers" id="controllers" />
+              <RakeTaskImpl description="" fullCommand="spec:prepare" id="prepare" />
+              <RakeTaskImpl description="" fullCommand="spec:statsetup" id="statsetup" />
             </subtasks>
           </RakeTaskImpl>
           <RakeTaskImpl description="Report code statistics (KLOCs, etc) from the application or engine" fullCommand="stats" id="stats" />
