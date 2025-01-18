@@ -5,6 +5,10 @@ default: &default
   username: vetuser
   password: vetrina360_01
 
+testdefault: &testdefault
+  <<: *default
+  host: localhost
+
 development:
   primary:
     <<: *default
@@ -24,16 +28,16 @@ development:
 
 test:
   primary:
-    <<: *default
+    <<: *testdefault
     database: vetrina360_test
   primary_exampleretailcompany:
-    <<: *default
+    <<: *testdefault
     database: exampleretailcompany_vetrina360_test
     migrations_paths:
       - db/migrate_tenants
       - db/migrate_tenants/exampleretailcompany
   primary_anotherretailcompany:
-    <<: *default
+    <<: *testdefault
     database: anotherretailcompany_vetrina360_test
     migrations_paths:
       - db/migrate_tenants
