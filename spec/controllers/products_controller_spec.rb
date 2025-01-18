@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 describe 'ProductsController', type: :controller do
-
   around(:each) do |test|
     ApplicationRecord.connected_to(role: :writing, shard: :exampleretailcompany, &test)
   end
@@ -36,7 +35,7 @@ describe 'ProductsController', type: :controller do
     it "assigns all products as @products" do
       product = Product.create! valid_attributes
       get :index
-      expect(assigns(:products)).to eq([product])
+      expect(assigns(:products)).to eq([ product ])
     end
   end
 
