@@ -27,7 +27,8 @@ module Middlewares
     private
 
     def extract_subdomain(host)
-      host.split(".").first if host.include?(".")
+      domain_levels = host.split(".")
+      domain_levels.length >= 3 ? domain_levels.first(domain_levels.size - 2).join(".") : nil
     end
 
     def not_found_response(message)
