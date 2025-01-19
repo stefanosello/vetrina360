@@ -49,10 +49,10 @@ class ProductsController < ApplicationController
 
   # DELETE /products/1 or /products/1.json
   def destroy
-    @product.destroy!
+    @product.discard!
 
     respond_to do |format|
-      format.html { redirect_to products_path, status: :see_other, notice: "Product was successfully destroyed." }
+      format.html { redirect_to products_path, status: :see_other, notice: "Product was successfully discarded." }
       format.json { head :no_content }
     end
   end
@@ -65,6 +65,6 @@ class ProductsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def product_params
-      params.expect(product: [ :description, :additional_description, :model, :discarded_at, :lock_version ])
+      params.expect(product: [ :description, :additional_description, :model, :discarded_at, :lock_version, :image ])
     end
 end

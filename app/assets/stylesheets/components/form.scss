@@ -1,0 +1,153 @@
+@use "../config/variables" as v;
+@use "../mixins/transitions" as t;
+@use "../mixins/focus-ring" as fr;
+
+.form {
+  max-width: 640px;
+  margin: 2rem auto;
+
+  .form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+
+    &:last-child {
+      margin-bottom: 2rem;
+    }
+  }
+
+  // Floating labels
+  .form-label {
+    position: absolute;
+    top: -0.5rem;
+    left: 0.75rem;
+    padding: 0 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: v.$color-label;
+    background-color: white;
+    z-index: 1;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      height: 2px;
+      background-color: white;
+      z-index: -1;
+    }
+  }
+
+  // Text inputs and textareas
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: v.$color-text-primary;
+    background-color: v.$color-input-bg;
+    border: 1px solid v.$color-border;
+    border-radius: 0.375rem;
+    @include t.base-transition;
+
+    &:focus {
+      border-color: v.$color-primary;
+      background-color: v.$color-input-focus;
+      @include fr.focus-ring;
+    }
+
+    &::placeholder {
+      color: v.$color-text-secondary;
+    }
+  }
+
+  // Textareas
+  textarea.form-control {
+    min-height: 120px;
+    resize: vertical;
+    line-height: 1.6;
+  }
+
+  // File input
+  input[type="file"] {
+    &.form-control {
+      padding: 1rem 0.75rem;
+
+      &::file-selector-button {
+        padding: 0.375rem 0.75rem;
+        margin-right: 1rem;
+        color: v.$color-text-primary;
+        background-color: #f3f4f6;
+        border: 1px solid v.$color-border;
+        border-radius: 0.25rem;
+        font-size: 0.875rem;
+        cursor: pointer;
+        @include t.base-transition;
+
+        &:hover {
+          background-color: #e5e7eb;
+        }
+      }
+    }
+  }
+
+  // Error states
+  .error-message {
+    margin-bottom: 1.5rem;
+    padding: 0.75rem 1rem;
+    color: v.$color-error;
+    background-color: v.$color-error-bg;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+  }
+
+  .field_with_errors {
+    .form-control {
+      border-color: v.$color-error;
+
+      &:focus {
+        box-shadow: 0 0 0 3px rgba(v.$color-error, 0.2);
+      }
+    }
+
+    .form-label {
+      color: v.$color-error;
+    }
+  }
+
+  // Hint/Help text
+  .form-text {
+    margin-top: 0.375rem;
+    font-size: 0.75rem;
+    color: v.$color-text-secondary;
+  }
+
+  // Submit button
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    @include t.base-transition;
+
+    &--primary {
+      color: white;
+      background-color: v.$color-primary;
+      border: 1px solid transparent;
+
+      &:hover {
+        background-color: v.$color-primary-hover;
+      }
+
+      &:focus {
+        @include fr.focus-ring;
+      }
+    }
+  }
+}

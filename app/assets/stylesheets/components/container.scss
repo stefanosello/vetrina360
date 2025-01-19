@@ -1,0 +1,17 @@
+@use "../mixins/responsive-container" as rc;
+@use "../config/variables" as v;
+
+.container {
+  background-color: #FFFFFF;
+  border: 1px solid v.$container-border-color;
+  border-radius: v.$container-border-radius;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+
+  .container__title {
+    width: 100%;
+    text-align: center;
+  }
+
+  @include rc.responsive-container(1200px, 16px);
+}

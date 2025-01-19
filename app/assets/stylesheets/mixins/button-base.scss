@@ -1,0 +1,16 @@
+@mixin button-base {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  svg {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+}

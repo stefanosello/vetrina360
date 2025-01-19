@@ -1,0 +1,129 @@
+@use "../config/variables" as v;
+@use "../mixins/button-base" as bb;
+
+.product-detail {
+  max-width: 800px;
+  margin: 2rem auto;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid v.$color-border;
+
+    &-content {
+      flex: 1;
+
+      h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: v.$color-text-primary;
+        margin: 0; // Remove margin to align with buttons
+        line-height: 1.2; // Adjusted for better alignment
+      }
+    }
+
+    &-actions {
+      display: flex;
+      gap: 0.75rem;
+      margin-left: 1rem;
+    }
+  }
+
+  // Button styles
+  &__btn {
+    @include bb.button-base;
+    text-decoration: none;
+    border: 1px solid transparent;
+    line-height: 1; // Adjusted line height
+
+    svg {
+      width: 1rem;
+      height: 1rem;
+      margin-right: 0.5rem;
+      position: relative;
+      top: -0.0625rem; // Slight adjustment to align icon with text
+    }
+
+    &--edit {
+      background-color: v.$color-primary;
+      color: white;
+
+      &:hover {
+        background-color: v.$color-primary-hover;
+      }
+    }
+
+    &--delete {
+      background-color: white;
+      color: v.$color-danger;
+      border-color: currentColor;
+
+      &:hover {
+        background-color: v.$color-danger;
+        color: white;
+      }
+    }
+  }
+
+  // Content sections
+  &__section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: v.$color-section-bg;
+    border-radius: 0.375rem;
+
+    &-label {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: v.$color-text-secondary;
+      text-transform: uppercase;
+      letter-spacing: 0.025em;
+      margin-bottom: 0.5rem;
+    }
+
+    &-content {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: v.$color-text-primary;
+      white-space: pre-line; // Preserves line breaks in text
+    }
+  }
+
+  // Image section
+  &__image {
+    margin-top: 2rem;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.375rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  // Responsive adjustments
+  @media (max-width: 640px) {
+    margin: 1rem;
+    padding: 1rem;
+
+    &__header {
+      flex-direction: column;
+      align-items: flex-start; // Reset alignment for mobile
+
+      &-actions {
+        margin-left: 0;
+        margin-top: 1rem;
+        width: 100%; // Full width on mobile
+
+        // Make buttons expand to fill width on mobile
+        .product-detail__btn {
+          flex: 1;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

@@ -2,15 +2,53 @@
 
 <% content_for :title, "Products" %>
 
-<h1>Products</h1>
+<h1 class="container__title">Products</h1>
 
 <div id="products">
-  <% @products.each do |product| %>
-    <%= render product %>
-    <p>
-      <%= link_to "Show this product", product %>
-    </p>
-  <% end %>
+  <table class="table">
+    <thead>
+    <tr>
+      <th></th>
+      <th>Product</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Last Updated</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <td>
+          <%= image_tag product.image, class: "product-image", alt: product.description if product.image %>
+        </td>
+        <td>
+          <%= link_to product.description, product_path(product), class: "product-name" %>
+          <div class="product-meta">
+            SKU: <%= product.model %>
+          </div>
+        </td>
+        <td>
+          <%= product.additional_description %>
+        </td>
+        <td>
+          <% status_class = {
+            'active' => 'status-active',
+            'draft' => 'status-draft',
+            'archived' => 'status-archived'
+          }[product.discarded_at.nil? ? 'active' : 'archived' ] %>
+          <span class="status-badge <%= status_class %>">
+            <%= product.discarded_at.nil? ? 'active'.capitalize : 'archived'.capitalize %>
+          </span>
+        </td>
+        <td>
+          <span class="product-meta">
+            <%= product.updated_at.strftime("%b %d, %Y") %>
+          </span>
+        </td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
 </div>
 
 <%= link_to "New product", new_product_path %>

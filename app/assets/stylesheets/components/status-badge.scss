@@ -1,0 +1,14 @@
+@use "../mixins/badge" as b;
+@use "../config/variables" as v;
+
+.status-badge {
+  @include b.badge;
+
+  // Generate status-specific classes
+  @each $status, $colors in v.$status-colors {
+    &.status-#{$status} {
+      background-color: map-get($colors, bg);
+      color: map-get($colors, text);
+    }
+  }
+}

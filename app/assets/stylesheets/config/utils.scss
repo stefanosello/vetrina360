@@ -1,0 +1,76 @@
+@use "variables" as v;
+
+@each $prop-key, $prop in v.$properties {
+  @each $side-key, $side in v.$sides {
+    @each $space-key, $space in v.$spacers {
+      @if $side == all {
+        .#{$prop-key}-#{$space-key} {
+          #{$prop}: $space !important;
+        }
+      }
+      @else if type-of($side) == string {
+        .#{$prop-key}#{$side-key}-#{$space-key} {
+          #{$prop}-#{$side}: $space !important;
+        }
+      }
+      @else {
+        .#{$prop-key}#{$side-key}-#{$space-key} {
+          @each $s in $side {
+            #{$prop}-#{$s}: $space !important;
+          }
+        }
+      }
+    }
+  }
+
+  @if $prop-key == m {
+    .#{$prop-key}-auto {
+      margin: auto !important;
+    }
+    @each $side-key, $side in v.$sides {
+      @if $side != all {
+        @if type-of($side) == string {
+          .#{$prop-key}#{$side-key}-auto {
+            margin-#{$side}: auto !important;
+          }
+        }
+        @else {
+          .#{$prop-key}#{$side-key}-auto {
+            @each $s in $side {
+              margin-#{$s}: auto !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@each $space-key, $space in v.$spacers {
+  @if $space-key != 0 {
+    .-m-#{$space-key} {
+      margin: -$space !important;
+    }
+    @each $side-key, $side in v.$sides {
+      @if $side != all {
+        @if type-of($side) == string {
+          .-m#{$side-key}-#{$space-key} {
+            margin-#{$side}: -$space !important;
+          }
+        }
+        @else {
+          .-m#{$side-key}-#{$space-key} {
+            @each $s in $side {
+              margin-#{$s}: -$space !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.mh-100vh {
+  min-height: 100vh;
+}
+

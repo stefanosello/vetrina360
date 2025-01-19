@@ -1,42 +1,47 @@
-<%= form_with(model: product) do |form| %>
+<%= simple_form_for product, html: { class: "form" } do |f| %>
   <% if product.errors.any? %>
-    <div style="color: red">
-      <h2><%= pluralize(product.errors.count, "error") %> prohibited this product from being saved:</h2>
-
-      <ul>
-        <% product.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
+    <div class="error-message">
+      <%= product.errors.full_messages.to_sentence.capitalize %>
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :description, style: "display: block" %>
-    <%= form.text_field :description %>
+  <div class="form-group">
+    <%= f.input :description,
+                input_html: {
+                  class: 'form-control',
+                  autofocus: true
+                },
+                label_html: { class: 'form-label' },
+                hint_html: { class: 'form-text' } %>
   </div>
 
-  <div>
-    <%= form.label :additional_description, style: "display: block" %>
-    <%= form.text_field :additional_description %>
+  <div class="form-group">
+    <%= f.input :additional_description,
+                as: :text,
+                input_html: {
+                  class: 'form-control',
+                  rows: 3
+                },
+                label_html: { class: 'form-label' },
+                hint_html: { class: 'form-text' } %>
   </div>
 
-  <div>
-    <%= form.label :model, style: "display: block" %>
-    <%= form.text_field :model %>
+  <div class="form-group">
+    <%= f.input :model,
+                input_html: { class: 'form-control' },
+                label_html: { class: 'form-label' },
+                hint_html: { class: 'form-text' } %>
   </div>
 
-  <div>
-    <%= form.label :discarded_at, style: "display: block" %>
-    <%= form.datetime_field :discarded_at %>
+  <div class="form-group">
+    <%= f.input :image,
+                input_html: {
+                  class: 'form-control',
+                  type: :file
+                },
+                label_html: { class: 'form-label' },
+                hint_html: { class: 'form-text' } %>
   </div>
 
-  <div>
-    <%= form.label :lock_version, style: "display: block" %>
-    <%= form.number_field :lock_version %>
-  </div>
-
-  <div>
-    <%= form.submit %>
-  </div>
+  <%= f.submit class: "btn btn--primary" %>
 <% end %>

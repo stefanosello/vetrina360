@@ -1,1 +1,9 @@
 // Entry point for your Sass build
+@use "config/reset";
+@use "components/container";
+@use "config/utils";
+@use "components/status-badge";
+@use "components/product";
+@use "components/table";
+@use "components/form";
+@use "components/product-detail";

@@ -18,12 +18,14 @@
     <link rel="apple-touch-icon" href="/icon.png">
 
     <%# Includes all stylesheet files in app/assets/stylesheets %>
-    <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
-    <%= javascript_include_tag "/assets/application", "data-turbo-track": "reload", type: "module" %>
-    <%= stylesheet_link_tag "/assets/application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container mh-100vh mt-5">
+      <%= yield %>
+    </div>
   </body>
 </html>

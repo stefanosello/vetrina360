@@ -1,0 +1,6 @@
+@use "../config/variables" as v;
+
+@mixin focus-ring {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(v.$color-primary, 0.2);
+}

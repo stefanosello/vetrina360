@@ -1,0 +1,69 @@
+$font-family: -apple-system, system-ui, BlinkMacSystemFont, Aptos, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$body-outer-color: rgb(247, 248, 250);
+$container-border-color: rgb(229, 231, 235);
+$container-border-radius: 8px 8px 0 0;
+
+// spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+
+// Properties
+$properties: (
+  m: margin,
+  p: padding
+);
+
+// Sides
+$sides: (
+  t: top,
+  b: bottom,
+  l: left,
+  r: right,
+  x: (left, right),
+  y: (top, bottom),
+  '': all
+);
+
+// colors
+$color-primary: #1a56db;
+$color-text-primary: #283040;
+$color-text-secondary: #4b5563;
+$color-text-muted: #6b7280;
+$color-border: #e5e7eb;
+$color-hover-bg: #f9fafb;
+$color-tag-bg: #f3f4f6;
+$color-error: #e02424;
+$color-error-bg: #fde8e8;
+$color-text-primary: #283040;
+$color-text-secondary: #4b5563;
+$color-input-bg: #ffffff;
+$color-input-focus: #eef3ff;
+$color-label: #374151;
+$color-primary: #1a56db;
+$color-primary-hover: #1e429f;
+$color-background: #ffffff;
+$color-section-bg: #f9fafb;
+$color-danger: #e02424;
+$color-danger-hover: #9b1c1c;
+
+$status-colors: (
+  active: (
+    bg: #def7ec,
+    text: #03543f
+  ),
+  draft: (
+    bg: #e1effe,
+    text: #1e429f
+  ),
+  archived: (
+    bg: #fde8e8,
+    text: #9b1c1c
+  )
+);

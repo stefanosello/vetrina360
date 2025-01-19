@@ -1,0 +1,29 @@
+@use "../config/variables" as v;
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2rem 0;
+
+  th {
+    text-align: left;
+    padding: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: v.$color-text-primary;
+    border-bottom: 2px solid v.$color-border;
+  }
+
+  td {
+    padding: 1rem;
+    border-bottom: 1px solid v.$color-border;
+    color: v.$color-text-secondary;
+  }
+
+  tr {
+    &:hover {
+      background-color: v.$color-hover-bg;
+    }
+  }
+}
