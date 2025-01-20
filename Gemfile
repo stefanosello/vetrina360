@@ -43,7 +43,7 @@ gem "thruster", require: false
 gem "image_processing", "~> 1.2"
 
 gem "discard", "~> 1.4"
-gem "simple_form", "~> 5.1.0"
+gem "simple_form", "~> 5.3.1"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
